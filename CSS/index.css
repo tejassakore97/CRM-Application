@@ -1,0 +1,60 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    
+}
+
+body{
+    background: url('bridge.jpg') no-repeat;
+    background-size: cover;
+    
+}
+
+.login{
+    width: 350px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.user input{
+    text-align: center;
+    margin: 10px 0;
+    width: 100%;
+    padding: 10px 10px;
+}
+
+.user button{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 8px;
+    width: 70%;
+    margin: 10px;
+    border-radius: 5px;
+    margin-left:63px;
+    
+}
+
+.invalid{
+   
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: red;
+    text-align: center;
+}
+
+.user button:hover{
+    cursor: pointer;
+    color:rgb(20 43 233);
+}
